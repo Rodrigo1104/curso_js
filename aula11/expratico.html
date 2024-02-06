@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(0, 204, 255);
+            color: wheat;
+            font: normal 20pt arial;
+        }
+        h1{ 
+            color: yellow 
+        } 
+        p{color: green ;}
+    </style>
+</head>
+<body>
+    <h1>Detram</h1>
+    <label for="txtpais"> Origem  </label><input type="text" name="txtpais" id="txtpais">
+    <input type="button" value="Verificar" onclick="verificar()">
+    <div id="res">
+    <script>
+        function verificar() {
+            var txtpais = document.querySelector('input#txtpais')
+            var res = document.querySelector('div#res')
+            var pais = (txtpais.value)
+            res.innerHTML = `<p>Morando em <strong>${pais.toUpperCase()}</strong></P>`
+                if (pais.toUpperCase() == "BRASIL"){
+                    res.innerHTML += `Voce é brasileiro`
+                }
+                else{
+                    res.innerHTML += `voce é estrangeiro`
+                }
+        }
+    </script>
+</body>
+</html>
