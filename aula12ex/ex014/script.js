@@ -16,6 +16,6 @@ function carregar() {
         //Boa noite
         img.src = 'noite.png'
         msgd.innerHTML = '_Boa noite'
-        document.body.style.background = 'blak'
+        document.body.style.background = 'hwb(35 0% 91%)'
     }
 }

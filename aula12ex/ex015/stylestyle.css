@@ -1,7 +1,6 @@
 body {
-    background: hwb(35 0% 91%);
+    background: rgb(0, 0, 0);
     font: normal 15 pt Arial;
-
 }
 
 header {
@@ -16,11 +15,6 @@ section {
     width: 500px;
     margin: auto;
     box-shadow:  5px 5px 10px rgba(255, 0, 0, 0.651);
-}
-
-div {
-    text-align: center;
-    padding: 5px;
 }
 
 footer {
