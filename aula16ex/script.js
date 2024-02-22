@@ -1,7 +1,7 @@
 let txtnum = document.getElementById('idnumber')
-let lista = [10]//document.querySelector('select#conteine')
+let lista = document.querySelector('select#conteine')
 let res = document.querySelector('div#res')
-let valores = [3, 5, 8, 10, 1]
+let valores = []
 
 
 function isNUMERO(n){
